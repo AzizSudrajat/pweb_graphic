@@ -1,0 +1,76 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*header*/
+header {
+	padding:20px 0;
+}
+
+.navbar{
+	margin:10px 0;
+}
+.navbar-default{
+		background:transparent;
+		border:none;
+}
+
+.navbar-nav > li > a {
+	font-weight:bold;
+}
+
+.navbar-brand {
+	font-family: 'Indie Flower', cursive;
+}
+
+/*featured*/
+.featured{
+	background:#5cb85c;
+	color:#fff;
+	padding:40px 0;
+	margin-bottom:40px;
+}
+
+.featured h1{
+	font-size:60px;
+	margin-top:0px;
+}
+
+.featured p{
+	font-size:20px;
+}
+
+/*services*/
+.services {
+
+}
+
+.services .glyphicon {
+	font-size:50px;
+}
+
+.title{
+	margin-bottom:40px;
+}
+
+.title h2{
+	margin:0px;
+}
+
+.phone {
+	font-size:30px;
+}
+
+footer {
+ 	background:#555;
+	color:#fff;
+	padding:20px 0;
+	margin-top:20px;
+}
+
+.copyright {
+ 	background:#666;
+	color:#fff;
+	padding: 10px;
+
+}
