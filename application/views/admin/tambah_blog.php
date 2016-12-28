@@ -34,7 +34,7 @@
                           </div>
                           <div class="form-group">
                             <label>Isi Blog</label>
-                            <textarea class="ckeditor" placeholder="Isi Blog" name="isi" required> </textarea>
+                            <textarea class="form-control" rows="5" placeholder="Isi Blog" name="isi" required> </textarea>
                             <!-- <input class="form-control" type="text" name="name" value=""> -->
                           </div>
                           <div class="form-group">
