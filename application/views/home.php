@@ -6,11 +6,11 @@
                     <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s</p>
                     <p><a href="#" class="btn btn-default btn-lg">Learn More</a></p>
                 </div>
-                <div class="col-sm-6">
+                <!-- <div class="col-sm-6">
                 	<div class="embed-responsive embed-responsive-16by9">
                     	<iframe src="https://www.youtube.com/embed/zSaSxgL9SWI" frameborder="0" class="embed-responsive-item"></iframe>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div><!-- /featured-->

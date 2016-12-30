@@ -1,7 +1,7 @@
 <?php
 class Uploads extends CI_Model {
 
-  var $tabel1 = 'blog';//tabel gambar di database sismul
+  var $tabel1 = 'blog';//tabel gambar di database ci_graphic
 
     function __construct() {
         parent::__construct();
