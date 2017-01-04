@@ -12,8 +12,21 @@ class Uploads extends CI_Model {
        return TRUE;
   }
 
-  //fungsi untuk select table blog
     function getBlog() {
          return $this->db->get('blog');
     }
+
+    //fungsi untuk select satu gambar untuk di edit
+    function getSinglegambar($id) {
+        return $query = $this->db->get_where('blog', array('id' => $id));
+    }
+
+    //fungsi untuk melakukan edit data blog
+    function update_blog($data, $id){
+      $this->db->where('id', $id);
+       $this->db->update($this->tabel1, $data);
+       return TRUE;
+    }
+
+
 }

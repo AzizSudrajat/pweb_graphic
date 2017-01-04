@@ -44,7 +44,7 @@
                               <td><?php echo $list['isi_blog'];?></td>
                               <td><?php echo $list['gambar'];?></td>
                               <td>
-                                <a href="#" class="btn btn-primary btn-xs" type="button"><i class="fa fa-wrench"></i> Update</a>
+                                <a href="<?php echo base_url(); ?>index.php/admin/welcome/editblog/<?php echo $list['id'] ?>" class="btn btn-primary btn-xs" type="button"><i class="fa fa-wrench"></i> Update</a>
                                 <a href="#" class="btn btn-primary btn-xs" type="button"><i class="fa fa-cut"></i> Delete</a>
                               </td>
                             </tr>
