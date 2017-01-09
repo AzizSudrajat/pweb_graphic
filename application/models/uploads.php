@@ -28,5 +28,10 @@ class Uploads extends CI_Model {
        return TRUE;
     }
 
+    //fungsi untuk menghapus blog dari database
+    function do_hapus_blog($id) {
+        $this->db->delete('blog', array('id' => $id));
+        // redirect('admin/welcome/blog');
+    }
 
 }

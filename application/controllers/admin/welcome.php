@@ -103,4 +103,10 @@ class Welcome extends CI_Controller {
           $this->uploads->update_blog($data, $this->input->post('id')); //akses model untuk menyimpan ke database
           redirect('admin/welcome/blog'); //jika berhasil maka akan ditampilkan view gambar
     }
+
+    //melakukan hapus gambar
+    function do_hapus_blog($id) {
+        $this->uploads->do_hapus_blog($id);
+        redirect('admin/welcome/blog');
+    }
 }

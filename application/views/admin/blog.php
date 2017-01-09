@@ -45,7 +45,7 @@
                               <td><?php echo $list['gambar'];?></td>
                               <td>
                                 <a href="<?php echo base_url(); ?>index.php/admin/welcome/editblog/<?php echo $list['id'] ?>" class="btn btn-primary btn-xs" type="button"><i class="fa fa-wrench"></i> Update</a>
-                                <a href="#" class="btn btn-primary btn-xs" type="button"><i class="fa fa-cut"></i> Delete</a>
+                                <a href="<?php echo base_url(); ?>index.php/admin/welcome/do_hapus_blog/<?php echo $list['id'] ?>" class="btn btn-primary btn-xs" type="button"><i class="fa fa-cut"></i> Delete</a>
                               </td>
                             </tr>
                             <?php $no++ ; }?>
