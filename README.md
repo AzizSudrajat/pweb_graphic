@@ -1,9 +1,15 @@
-# CodeIgniter 2
-Open Source PHP Framework (originally from EllisLab)
+Pemrograman Website
 
-For more info, please refer to the user-guide at http://www.codeigniter.com/userguide2/  
-(also available within the download package for offline use)
+CRUD dan Session
+User-site dan Admin-site
 
-**WARNING:** *CodeIgniter 2.x is no longer under development and only receives security patches until October 31st, 2015.
-Please update your installation to the latest CodeIgniter 3.x version available
-(upgrade instructions [here](http://www.codeigniter.com/userguide3/installation/upgrade_300.html)).*
+Setelah mendownload, terlebih dahulu configurasi CI nya
+1. pertama pergi ke folder application/config/config.PHP
+2. ubah base_url menjadi nama folder yang di download
+3. buat database dengan nama ci_graphic
+4. lalu import file ci_graphic.sql pada database tersebut
+
+kalau bingung cara pembuatan nya bisa cek di youtube saya
+https://www.youtube.com/playlist?list=PLMsMPHPu9zQbDgBbnaGxJa05kA0KqkWiY
+
+dan follow github saya ya :D
