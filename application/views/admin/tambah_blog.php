@@ -8,10 +8,10 @@
                         </h1>
                         <ol class="breadcrumb">
                             <li>
-                                <i class="fa fa-dashboard"></i><a href="#"> Dashboard</a>
+                                <i class="fa fa-dashboard"></i><a href="<?php echo base_url(); ?>index.php/admin"> Dashboard</a>
                             </li>
                             <li>
-                              <i class="fa fa-list-alt"></i><a href="#"> Blog</a>
+                              <i class="fa fa-list-alt"></i><a href="<?php echo base_url(); ?>index.php/admin/welcome/blog"> Blog</a>
                             </li>
                             <li class="active">
                               <i class="fa fa-list-alt"></i> Tambah Data Blog

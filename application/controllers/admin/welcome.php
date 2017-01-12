@@ -4,12 +4,14 @@ class Welcome extends CI_Controller {
   public function __construct() {
         parent::__construct();
         $this->load->model('uploads'); //load model uploads yang berada di folder model
-        // $this->load->helper(array('url')); //load helper url
+        if (!$this->session->userdata('logged_in')) {
+            redirect('admin/login');
+					}
 				}
 
   public function index(){
     $this->load->view('admin/header');
-    $this->load->view('admin/blog');
+    $this->load->view('admin/home');
     $this->load->view('admin/footer');
   }
 
@@ -108,5 +110,10 @@ class Welcome extends CI_Controller {
     function do_hapus_blog($id) {
         $this->uploads->do_hapus_blog($id);
         redirect('admin/welcome/blog');
+    }
+
+    function logout(){
+      $this->session->unset_userdata('logged_in');
+      redirect('admin/login');
     }
 }
