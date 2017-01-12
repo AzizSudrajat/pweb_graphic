@@ -12,7 +12,7 @@ class Login extends CI_Controller {
         if ($this->session->userdata('logged_in')) {
             redirect('admin/welcome', 'refresh');
         } else {
-            $this->load->helper(array('form'));
+            // $this->load->helper(array('form'));
             $this->load->view('admin/login');
         }
     }
